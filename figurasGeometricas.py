@@ -1,7 +1,11 @@
-import math
+#Importando libreria
+
+import math #importamos libreria math
+
+#Creando funciones
 
 def volumenCubo():
-    a = float(input("Ingrese el area del: "))
+    a = float(input("Ingrese el area del cubo: "))
     resultado = a**3
     int_resultado = int(resultado)
     return print("El volumen es: " + str(int_resultado) + " centimetros")
